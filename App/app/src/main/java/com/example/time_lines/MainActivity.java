@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         // Get access to the custom title view
         TextView mTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
+        
     }
 }
