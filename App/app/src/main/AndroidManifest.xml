@@ -2,9 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.time_lines">
 
-    <application
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-        >
+    <application android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".AmazonPrompt"></activity>
+        <activity android:name=".AmazonSignIn" />
+        <activity android:name=".GoogleSignIn" />
+        <activity android:name=".UVicPrompt" />
+        <activity android:name=".GooglePrompt" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
