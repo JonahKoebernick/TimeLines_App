@@ -3,4 +3,10 @@
     <color name="colorPrimary">#4C4C4C</color>
     <color name="colorPrimaryDark">#010101</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorSchool">#FF7300</color>
+    <color name="colorWork">#B60000</color>
+    <color name="colorMeetings">#00F821</color>
+    <color name="colorHobbies">#7400B1</color>
+    <color name="colorExercise">#3D86FF</color>
+
 </resources>
