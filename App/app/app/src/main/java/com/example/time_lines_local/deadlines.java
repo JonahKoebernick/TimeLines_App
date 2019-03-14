@@ -13,7 +13,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import java.util.ArrayList;
+
 public class deadlines extends MainActivity implements NavigationView.OnNavigationItemSelectedListener  {
+
+    private ArrayList<String> mDates = new ArrayList<>();
+    private ArrayList<String> mImageUrls = new ArrayList<>();
+    private ArrayList<String> mNames = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,5 +101,47 @@ public class deadlines extends MainActivity implements NavigationView.OnNavigati
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void initImageBitmaps(){
+
+        //mImageUrls.add("https://i.imgur.com/ZcLLrkY.jpg");
+        mDates.add("Today, March 14th, 2019");
+        mNames.add("Math-122 Assignment 4");
+
+       // mImageUrls.add("https://c1.staticflickr.com/5/4636/25316407448_de5fbf183d_o.jpg");
+        mDates.add("Friday, March 15th, 2019");
+        mNames.add("SENG-310 Assignment 3");
+
+        //mImageUrls.add("https://i.redd.it/tpsnoz5bzo501.jpg");
+        mDates.add("Tuesday, March 19th, 2019");
+        mNames.add("Stats-260 Midterm 3");
+
+        //mImageUrls.add("https://i.redd.it/qn7f9oqu7o501.jpg");
+        mDates.add("Thursday, March 21st, 2019");
+        mNames.add("Math-122 Test 5");
+
+        //mImageUrls.add("https://i.redd.it/j6myfqglup501.jpg");
+        mDates.add("Wednesday, March 27th, 2019");
+        mNames.add("SENG-265 Assignment 4");
+
+
+        //mImageUrls.add("https://i.redd.it/0h2gm1ix6p501.jpg");
+        mDates.add("Friday, March 29th, 2019");
+        mNames.add("ECE-260 Lab 6");
+
+        //mImageUrls.add("https://i.redd.it/k98uzl68eh501.jpg");
+        mDates.add("Thursday, April 4th, 2019");
+        mNames.add("SENG-310 Project Phase 4");
+
+
+        initRecyclerView();
+    }
+
+    private void initRecyclerView(){
+        RecyclerView recyclerView = findViewById(R.id.recyclerv_view);
+        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, mDates, mNames);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 }
