@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Time_Lines</string>
     <string name="timelines">TimeLines</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="to_sync_your">to sync your</string>
+    <string name="google_sign_in">Google sign-in</string>
+    <string name="skip">skip</string>
+    <string name="uvic_sign_in">UVic sign-in</string>
+    <string name="to_enable_Alexa">to enable Alexa</string>
+    <string name="voice_commands">voice commands</string>
 </resources>

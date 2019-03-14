@@ -16,7 +16,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="skip"
+        android:text="@string/skip"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:fontFamily="sans-serif-light"
@@ -48,7 +48,7 @@
         app:layout_constraintVertical_bias="0.415" />
 
     <TextView
-        android:id="@+id/sign_In"
+        android:id="@+id/Sign_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -57,7 +57,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="To sync your"
+        android:text="@string/to_sync_your"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
         app:fontFamily="sans-serif-thin"
@@ -78,7 +78,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Sign in with"
+        android:text="@string/sign_in_with"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
         app:fontFamily="sans-serif-thin"
@@ -90,7 +90,7 @@
         app:layout_constraintVertical_bias="0.14" />
 
     <ImageView
-        android:id="@+id/google logo"
+        android:id="@+id/googleLogo"
         android:layout_width="245dp"
         android:layout_height="129dp"
         android:layout_marginStart="8dp"
@@ -104,24 +104,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.209"
-        app:srcCompat="@drawable/google_PNG19644" />
+        app:srcCompat="@drawable/google_logo" />
 
     <Button
-        android:id="@+id/google_sign_in_btn"
-        android:layout_width="172dp"
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Google sign-in"
+        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698" />
+        app:layout_constraintVertical_bias="0.671" />
 
     <Button
-        android:id="@+id/skipGoogle"
+        android:id="@+id/btnSkipGoogle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
@@ -129,7 +128,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/google_sign_in_btn"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoogleSignIn"
         app:layout_constraintVertical_bias="0.9" />
+
+    <ImageView
+        android:id="@+id/signInWithGoogle"
+        android:layout_width="252dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683"
+        app:srcCompat="@drawable/google_sign_in" />
 
 </android.support.constraint.ConstraintLayout>
