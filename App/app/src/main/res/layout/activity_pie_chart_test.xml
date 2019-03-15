@@ -43,8 +43,8 @@
         <ProgressBar
             android:id="@+id/stats_hobbiesDaily"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="100"
@@ -59,8 +59,8 @@
         <ProgressBar
             android:id="@+id/stats_exerciseDaily"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="80"
@@ -75,8 +75,8 @@
         <ProgressBar
             android:id="@+id/stats_meetingsDaily"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="60"
@@ -91,8 +91,8 @@
         <ProgressBar
             android:id="@+id/stats_workDaily"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="40"
@@ -107,8 +107,8 @@
         <ProgressBar
             android:id="@+id/stats_schoolDaily"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="20"
@@ -135,7 +135,7 @@
         app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/dailyTitle"
-        app:layout_constraintVertical_bias="0.05" />
+        app:layout_constraintVertical_bias="0.03" />
 
     <TextView
         android:id="@+id/workDaily"
@@ -211,7 +211,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/dailyTitle"
-        app:layout_constraintVertical_bias="0.053"
+        app:layout_constraintVertical_bias="0.033"
         app:srcCompat="@color/colorSchool" />
 
     <ImageView
@@ -296,8 +296,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32999998"
+        app:layout_constraintTop_toBottomOf="@id/dailyAnalyticsChart"
+        app:layout_constraintVertical_bias="0"
         app:srcCompat="@color/colorPrimaryDark" />
 
 
@@ -338,8 +338,8 @@
         <ProgressBar
             android:id="@+id/stats_hobbiesWeekly"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="100"
@@ -354,8 +354,8 @@
         <ProgressBar
             android:id="@+id/stats_exerciseWeekly"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="80"
@@ -370,8 +370,8 @@
         <ProgressBar
             android:id="@+id/stats_meetingsWeekly"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="60"
@@ -386,8 +386,8 @@
         <ProgressBar
             android:id="@+id/stats_workWeekly"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="40"
@@ -402,8 +402,8 @@
         <ProgressBar
             android:id="@+id/stats_schoolWeekly"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="20"
@@ -430,7 +430,7 @@
         app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/weeklyTitle"
-        app:layout_constraintVertical_bias="0.08" />
+        app:layout_constraintVertical_bias="0.045" />
 
     <TextView
         android:id="@+id/workWeekly"
@@ -506,7 +506,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/weeklyTitle"
-        app:layout_constraintVertical_bias="0.083"
+        app:layout_constraintVertical_bias="0.048"
         app:srcCompat="@color/colorSchool" />
 
     <ImageView
@@ -630,8 +630,8 @@
         <ProgressBar
             android:id="@+id/stats_hobbiesMonthly"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="100"
@@ -646,8 +646,8 @@
         <ProgressBar
             android:id="@+id/stats_exerciseMonthly"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="80"
@@ -662,8 +662,8 @@
         <ProgressBar
             android:id="@+id/stats_meetingsMonthly"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="60"
@@ -678,8 +678,8 @@
         <ProgressBar
             android:id="@+id/stats_workMonthly"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="40"
@@ -694,8 +694,8 @@
         <ProgressBar
             android:id="@+id/stats_schoolMonthly"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
             android:indeterminate="false"
             android:max="100"
             android:progress="20"
