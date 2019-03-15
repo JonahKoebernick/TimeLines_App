@@ -1,7 +1,8 @@
 # TimeLines_App
-The following repository is for Phase 3 of Spring 2019 SENG-310 design project
+Timelines is an Android App for Phase 3 of Spring 2019 SENG-310 Design Project.
 
-This is for the development of the application Timelines in: 
+## Requirements
+- Android Studio
 
-Android Studio: Prototype with some working features (High fidelity)
-
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
